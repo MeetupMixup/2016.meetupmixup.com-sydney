@@ -261,3 +261,12 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
+
+
+#sponsors .sponsor img.logo {
+  width: 90%;
+}
+#sponsors .sponsor h4 {
+  font-size: 2em;
+}
