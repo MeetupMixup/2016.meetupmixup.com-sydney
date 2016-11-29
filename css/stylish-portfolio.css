@@ -265,10 +265,56 @@ footer {
 
 
 #sponsors .sponsor img.logo {
-  width: 90%;
+  max-width: 90%;
 }
 #sponsors .sponsor h4 {
   font-size: 2em;
+}
+
+#sponsors .row.sponsors {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#sponsors .sponsors-gold img {
+  max-width: 400px;
+  text-align: center;
+}
+
+#sponsors .sponsors-silver img {
+  max-width: 300px;
+  text-align: center;
+}
+
+
+#sponsors .sponsors-silver .sponsor-learnmore,
+#sponsors .sponsors-gold .sponsor-learnmore,
+#sponsors .sponsors-platinum .sponsor-announcementsoon,
+#sponsors .sponsors-silver .sponsor-announcementsoon,
+#sponsors .sponsors-gold .sponsor-announcementsoon
+ {
+  color: #bbbbbb;
+  text-align: center;
+}
+
+#sponsors .sponsors-gold .sponsor-learnmore,
+#sponsors .sponsors-gold .sponsor-announcementsoon {
+  min-height: 180px;
+  padding-top: 3em;
+}
+
+#sponsors .sponsors-silver .sponsor-learnmore,
+#sponsors .sponsors-silver .sponsor-announcementsoon  {
+  min-height: 130px;
+  padding-top: 1em;
+}
+
+
+#sponsors .sponsor-learnmore h4 {
+  font-size: 24px
+}
+#sponsors .sponsor-learnmore p {
+  font-size: 18px;
 }
 
 
