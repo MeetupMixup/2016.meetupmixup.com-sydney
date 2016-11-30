@@ -276,14 +276,22 @@ footer {
   margin-bottom: 20px;
 }
 
+#sponsors .sponsors-platinum img {
+  max-width: 600px;
+  text-align: center;
+  max-height: 200px;
+}
+
 #sponsors .sponsors-gold img {
   max-width: 400px;
   text-align: center;
+  max-height: 150px;
 }
 
 #sponsors .sponsors-silver img {
   max-width: 300px;
   text-align: center;
+  max-height: 130px;
 }
 
 
