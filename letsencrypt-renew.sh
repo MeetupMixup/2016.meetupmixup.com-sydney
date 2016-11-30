@@ -18,7 +18,7 @@ function lebot() {
 
 echo "" | openssl s_client -connect $HOSTNAME:443 -servername $HOSTNAME -prexit 2>/dev/null | sed -n -e '/BEGIN\ CERTIFICATE/,/END\ CERTIFICATE/ p' | openssl x509 -checkend $EXPIRE_THRESHOLD -noout
 
-if [ $? -ne 0 ]
+if [ $? -eq 0 ]
 then
   echo "Certificate is good for another day!"
 else
