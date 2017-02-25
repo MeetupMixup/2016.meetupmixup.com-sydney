@@ -6,9 +6,7 @@ EXPIRE_THRESHOLD=$((86400 * 30)) #30 days
 
 
 function lebot() {
-    if hash ./certbot-auto 2>/dev/null; then
-        ./certbot-auto "$@"
-    elif hash letsencrypt 2>/dev/null; then
+    if hash letsencrypt 2>/dev/null; then
         letsencrypt "$@"
     elif hash certbot 2>/dev/null; then
         certbot "$@"
