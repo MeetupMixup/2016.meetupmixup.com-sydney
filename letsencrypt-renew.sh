@@ -25,7 +25,7 @@ else
   echo "Certificate has expired, or will soon (or there was an error)!"
   echo "Attempting certificate renewal"
 
-  lebot --agree-tos -a letsencrypt-s3front:auth \
+  lebot --agree-tos -n -a letsencrypt-s3front:auth \
      --letsencrypt-s3front:auth-s3-bucket $S3_BUCKET \
      --letsencrypt-s3front:auth-s3-region $S3_REGION \
      -i letsencrypt-s3front:installer \
